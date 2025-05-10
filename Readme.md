@@ -1,3 +1,8 @@
+# Make the scripts executable
++ chmod +x compile_cuda_mpi.sh
++ chmod +x cuda_mpi_run.sh
+---
+# ChatGPT Explaining These Commands
 There are several ways to execute your compiled CUDA and MPI program, depending on how you've set up your environment, how many processes you want to run, and how you want to manage resources. Below are the different ways you can execute your program after it has been compiled using `nvcc`.
 
 ### **1. Execute on a Single Node with Multiple Processes**
