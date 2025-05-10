@@ -1,4 +1,4 @@
-Certainly! There are several ways to execute your compiled CUDA and MPI program, depending on how you've set up your environment, how many processes you want to run, and how you want to manage resources. Below are the different ways you can execute your program after it has been compiled using `nvcc`.
+There are several ways to execute your compiled CUDA and MPI program, depending on how you've set up your environment, how many processes you want to run, and how you want to manage resources. Below are the different ways you can execute your program after it has been compiled using `nvcc`.
 
 ### **1. Execute on a Single Node with Multiple Processes**
    This is the most common way to run your MPI program, especially if you're working on a single machine with multiple cores.
@@ -172,5 +172,3 @@ Certainly! There are several ways to execute your compiled CUDA and MPI program,
    ```
 
 ---
-
-These are all the common ways to execute an MPI and CUDA program. Each option has a different use case depending on the resources available, the number of processes you want to run, and the hardware you're targeting.
